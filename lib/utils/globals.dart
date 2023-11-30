@@ -50,7 +50,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
         "algorithm": "AES (Advanced Encryption Standard)",
-        "types": <String>["AES-128", "AES-128", "AES-256"],
+        "types": <String>["AES-128", "AES-192", "AES-256"],
         "value": "",
       },
       <String, dynamic>{
