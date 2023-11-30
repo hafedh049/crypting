@@ -10,4 +10,14 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "types": <String>[],
     "value": "",
   },
+  0: <String, dynamic>{
+    "algorithm": "MD5 (Message Digest Algorithm 5)",
+    "types": <String>[],
+    "value": "",
+  },
+  0: <String, dynamic>{
+    "algorithm": "MD5 (Message Digest Algorithm 5)",
+    "types": <String>[],
+    "value": "",
+  },
 };
