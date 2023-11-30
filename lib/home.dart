@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
                             const SizedBox(height: 10),
                             for (Map<String, String> type in algorithms["types"]) ...<Widget>[
                               if (salts[index]!["title"] == type.keys.first)
-                                Flexible(child: Text("  ${type.value}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
+                                Flexible(child: Text("  ${type.values.first}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                               else ...<Widget>[
                                 Text("  ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
                                 const SizedBox(height: 10),
