@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             AnimSearchBar(
-              width: width,
+              width: MediaQuery.sizeOf(context).width * .6,
               textController: textController,
               onSuffixTap: onSuffixTap,
               onSubmitted: onSubmitted,
