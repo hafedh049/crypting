@@ -37,7 +37,9 @@ class _HomeState extends State<Home> {
             Expanded(
               child: ListView.builder(
                 itemCount: 10,
-                itemBuilder: (BuildContext context, int index) {},
+                itemBuilder: (BuildContext context, int index) {
+                  return;
+                },
               ),
             ),
           ],
