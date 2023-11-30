@@ -16,7 +16,9 @@ class _HomeState extends State<Home> {
         padding: const EdgeInsets.all(24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted)],
+          children: <Widget>[
+            AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted),
+          ],
         ),
       ),
     );
