@@ -6,7 +6,5 @@ const Color white = Colors.white;
 
 final List<Map<int, List<String>>> salts = List<Map<int, List<String>>>.generate(
   10,
-  (int index) => <int, List<String>>{
-    index: <String>[],
-  },
+  (int index) => <int, List<String>>{index: <String>[]},
 );
