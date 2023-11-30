@@ -28,6 +28,7 @@ class _HomeState extends State<Home> {
           child: Column(
             children: <Widget>[
               SearchBarAnimation(
+                searchBoxColour: gray,
                 isOriginalAnimation: false,
                 buttonBorderColour: Colors.black45,
                 onFieldSubmitted: (String value) {
