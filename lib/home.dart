@@ -33,7 +33,6 @@ class _HomeState extends State<Home> {
             SearchBar(
               controller: _inputController,
               onChanged: (String text) {},
-              onSubmitted: onSubmitted,
             ),
             const SizedBox(height: 20),
             Expanded(
