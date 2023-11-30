@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
                 },
                 textEditingController: _inputController,
                 trailingWidget: const Icon(FontAwesome.x, size: 15, color: teal),
-                secondaryButtonWidget: null,
+                secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
                 buttonWidget: null,
               ),
               const SizedBox(height: 20),
