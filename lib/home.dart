@@ -10,7 +10,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final TextEditingController _inputController = TextEditingController();
-  final List<String> _salts = List<String>.generate(10, (int index) => '');
+  final List<Map<int, List<String>>> _salts = List<Map<int, List<String>>>.generate(10, (int index) => <int, List<String>>{});
   @override
   void dispose() {
     _inputController.dispose();
