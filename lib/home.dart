@@ -50,8 +50,9 @@ class _HomeState extends State<Home> {
                             Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))),
                             const SizedBox(height: 10),
                             if (salts[index]!["title"] == algorithms["types"].keys[0])
+                            Flexible(child:  Text(salts[index]![2], style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500)))
                           ],
-                          Text(salts[index]![2], style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500)),
+                         ,
                           const SizedBox(height: 10),
                         ],
                       ),
