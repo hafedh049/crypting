@@ -25,7 +25,6 @@ class _HomeState extends State<Home> {
         child: Center(
           child: Column(
             children: <Widget>[
-              SearchBar(),
               const SizedBox(height: 20),
               Expanded(
                 child: ListView.builder(
