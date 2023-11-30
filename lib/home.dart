@@ -42,7 +42,9 @@ class _HomeState extends State<Home> {
                     return Container(
                       padding: const EdgeInsets.all(16),
                       margin: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(
+                        boxShadow: <BoxShadow>[BoxShadow()],
+                      ),
                     );
                   },
                 ),
