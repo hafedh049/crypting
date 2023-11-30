@@ -27,14 +27,13 @@ class _HomeState extends State<Home> {
           child: Column(
             children: <Widget>[
               SearchBarAnimation(
-                textController: TextEditingController(),
                 isOriginalAnimation: false,
                 buttonBorderColour: Colors.black45,
                 buttonIcon: Icons.search,
                 onFieldSubmitted: (String value) {
                   debugPrint('onFieldSubmitted value $value');
                 },
-                textEditingController: null,
+                textEditingController: _inputController,
                 trailingWidget: null,
                 secondaryButtonWidget: null,
                 buttonWidget: null,
