@@ -39,8 +39,8 @@ class _HomeState extends State<Home> {
                 itemCount: 10,
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
-                    padding: EdgeInsets.all(16),
-                    margin: EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16),
+                    margin: const EdgeInsets.all(16),
                   );
                 },
               ),
