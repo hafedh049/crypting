@@ -1,6 +1,5 @@
 import 'package:anim_search_bar/anim_search_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:searchbar_animation/searchbar_animation.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -31,8 +30,9 @@ class _HomeState extends State<Home> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SearchBarAnimation(
-              controller: _inputController,
+            SearchBar(
+              width: MediaQuery.sizeOf(context).width * .6,
+              textController: _inputController,
               onSuffixTap: ,
               onSubmitted: onSubmitted,
             ),
