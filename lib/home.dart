@@ -30,6 +30,7 @@ class _HomeState extends State<Home> {
               SearchBarAnimation(
                 enteredTextStyle: const TextStyle(color: teal),
                 hintText: "Type ...",
+                hintTextColour: teal,
                 searchBoxColour: gray,
                 buttonColour: white.withOpacity(.3),
                 isOriginalAnimation: false,
