@@ -79,7 +79,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
         "value": "",
       },
       <String, dynamic>{
-        "algorithm": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest)",
+        "algorithm": "Blowfish",
         "types": <String>["RIPEMD-128", "RIPEMD-160", "RIPEMD-256", "RIPEMD-320"],
         "value": "",
       },
