@@ -40,6 +40,7 @@ class _HomeState extends State<Home> {
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
                     padding: EdgeInsets.all(16),
+                    margin: EdgeInsets.all(16),
                   );
                 },
               ),
