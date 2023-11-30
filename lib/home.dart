@@ -29,6 +29,7 @@ class _HomeState extends State<Home> {
             children: <Widget>[
               SearchBarAnimation(
                 searchBoxColour: gray,
+                buttonColour: white.withOpacity(.3),
                 isOriginalAnimation: false,
                 buttonBorderColour: Colors.black45,
                 onFieldSubmitted: (String value) {
