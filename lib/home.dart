@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
                             Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.8))),
                             const SizedBox(height: 10),
                             if (salts[index]!["title"] == algorithms["types"].keys[0])
-                              Flexible(child: Text(salts[index]![2], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
+                              Flexible(child: Text(algorithms["types"].values[0], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                             else
                               for (MapEntry type in algorithms["types"]) ...<Widget>[
                                 Text(" ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
