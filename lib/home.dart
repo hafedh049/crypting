@@ -42,7 +42,9 @@ class _HomeState extends State<Home> {
                         color: white.withOpacity(.3),
                         boxShadow: <BoxShadow>[BoxShadow(color: gray.withOpacity(.3), blurStyle: BlurStyle.outer, offset: const Offset(2, 2))],
                       ),
-                      child: Column(),
+                      child: Column(
+                        children: [],
+                      ),
                     );
                   },
                 ),
