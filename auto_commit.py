@@ -6,7 +6,7 @@ run(["cd", repo_path], shell=True)
 
 index: int = 0
 
-while index <= 400:
+while 1:
     result = run(["git", "status", "--porcelain"], capture_output=True, text=True)
 
     status_output: str = result.stdout
