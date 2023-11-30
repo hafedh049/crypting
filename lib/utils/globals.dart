@@ -22,19 +22,19 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "SHA-3 (Secure Hash Algorithm 3)",
-        "types": <String,String>{"SHA3-224", "SHA3-256", "SHA3-384", "SHA3-512"},
+        "types": <String, String>{"SHA3-224", "SHA3-256", "SHA3-384", "SHA3-512"},
       },
       <String, dynamic>{
         "algorithm": "BLAKE2",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Whirlpool",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest)",
-        "types": <String,String>{"RIPEMD-128", "RIPEMD-160", "RIPEMD-256", "RIPEMD-320"},
+        "types": <String, String>{"RIPEMD-128", "RIPEMD-160", "RIPEMD-256", "RIPEMD-320"},
       },
     ],
   },
@@ -43,51 +43,51 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
         "algorithm": "AES (Advanced Encryption Standard)",
-        "types": <String,String>{"AES-128", "AES-192", "AES-256"},
+        "types": <String, String>{"AES-128", "AES-192", "AES-256"},
       },
       <String, dynamic>{
         "algorithm": "DES (Data Encryption Standard)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "3DES (Triple Data Encryption Standard)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "RSA (Rivest–Shamir–Adleman)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Diffie-Hellman Key Exchange",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "ECC (Elliptic Curve Cryptography)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Blowfish",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "RC4 (Rivest Cipher 4)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Twofish",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Camellia",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Chacha20",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Salsa20",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
     ],
   },
@@ -96,19 +96,19 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
         "algorithm": "PBKDF2 (Password-Based Key Derivation Function 2)",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "BCrypt",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "SCrypt",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
       <String, dynamic>{
         "algorithm": "Argon2",
-        "types": <String,String>{],
+        "types": <String, String>{},
       },
     ],
   },
