@@ -1,5 +1,6 @@
 import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
+import 'package:searchbar_animation/searchbar_animation.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -33,6 +34,7 @@ class _HomeState extends State<Home> {
                 onFieldSubmitted: (String value) {
                   debugPrint('onFieldSubmitted value $value');
                 },
+                textEditingController: null,
               ),
               const SizedBox(height: 20),
               Expanded(
