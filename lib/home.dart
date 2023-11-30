@@ -25,6 +25,15 @@ class _HomeState extends State<Home> {
         child: Center(
           child: Column(
             children: <Widget>[
+              SearchBarAnimation(
+                textController: TextEditingController(),
+                isOriginalAnimation: false,
+                buttonBorderColour: Colors.black45,
+                buttonIcon: Icons.search,
+                onFieldSubmitted: (String value) {
+                  debugPrint('onFieldSubmitted value $value');
+                },
+              ),
               const SizedBox(height: 20),
               Expanded(
                 child: ListView.builder(
