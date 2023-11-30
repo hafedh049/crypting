@@ -37,7 +37,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
   },
   6: <String, dynamic>{
     "algorithm": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest)",
-    "types": <String>["SHA3-224", "SHA3-256", "SHA3-384", "SHA3-512"],
+    "types": <String>["RIPEMD-128", "SHA3-256", "SHA3-384", "SHA3-512"],
     "value": "",
   },
 };
