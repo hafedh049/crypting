@@ -7,8 +7,8 @@ const Color white = Colors.white;
 final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
   0: <String, dynamic>{
     "title": "",
-    "algorithms": <int, dynamic>{
-    0:  "algorithm": "MD5 (Message Digest Algorithm 5)",
+    "algorithms": [{
+     "algorithm": "MD5 (Message Digest Algorithm 5)",
       "types": <String>[],
       "value": "",
     },
@@ -41,6 +41,6 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       "algorithm": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest)",
       "types": <String>["RIPEMD-128", "RIPEMD-160", "RIPEMD-256", "RIPEMD-320"],
       "value": "",
-    },
+    },],
   },
 };
