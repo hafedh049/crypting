@@ -43,6 +43,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.all(16),
                       margin: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
                         color: mainColor.withOpacity(.3),
                         boxShadow: <BoxShadow>[BoxShadow(color: gray.withOpacity(.3), blurStyle: BlurStyle.outer, offset: const Offset(2, 2))],
                       ),
