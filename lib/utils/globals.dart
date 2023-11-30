@@ -30,4 +30,9 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "types": <String>[],
     "value": "",
   },
+  5: <String, dynamic>{
+    "algorithm": "BLAKE2",
+    "types": <String>[],
+    "value": "",
+  },
 };
