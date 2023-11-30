@@ -10,7 +10,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
         "algorithm": "MD5 (Message Digest Algorithm 5)",
-        "types": <String, String>{},
+        "types": <String, String>{"MD5 (Message Digest Algorithm 5)": ""},
       },
       <String, dynamic>{
         "algorithm": "SHA-1 (Secure Hash Algorithm 1)",
