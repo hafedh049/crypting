@@ -65,7 +65,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "RSA (Rivest–Shamir–Adleman)",
-        "types": <String>["SHA3-224", "SHA3-256", "SHA3-384", "SHA3-512"],
+        "types": <String>[],
         "value": "",
       },
       <String, dynamic>{
