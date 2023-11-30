@@ -1,3 +1,4 @@
+import 'package:crypting/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
