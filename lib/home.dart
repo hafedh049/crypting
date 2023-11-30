@@ -33,6 +33,7 @@ class _HomeState extends State<Home> {
               Expanded(
                 child: ListView.builder(
                   itemCount: salts.length,
+                  shrinkWrap: true,
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
                       padding: const EdgeInsets.all(16),
