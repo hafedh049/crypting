@@ -47,7 +47,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "DES (Data Encryption Standard)",
-        "types": <String, String>{},
+        "types": <String, String>{"DES (Data Encryption Standard)": ""},
       },
       <String, dynamic>{
         "algorithm": "3DES (Triple Data Encryption Standard)",
