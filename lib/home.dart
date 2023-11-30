@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
                   debugPrint('onFieldSubmitted value $value');
                 },
                 textEditingController: _inputController,
-                trailingWidget: IconButton(onPressed: () => setState(() {}), icon: const Icon(FontAwesome.x, size: 15, color: teal)),
+                trailingWidget: IconButton(onPressed: () => setState(() => _inputController.clear()), icon: const Icon(FontAwesome.x, size: 15, color: teal)),
                 secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
                 buttonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
               ),
