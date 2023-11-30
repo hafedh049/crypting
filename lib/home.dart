@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
               const SizedBox(height: 20),
               Expanded(
                 child: ListView.builder(
-                  itemCount: 10,
+                  itemCount: salts.length,
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
                       padding: const EdgeInsets.all(16),
