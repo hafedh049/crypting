@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final TextEditingController _inputController = TextEditingController();
-  final TextEdi _publicKeyController = TextEditingController();
+  final TextEditingController _publicKeyController = TextEditingController();
   @override
   void dispose() {
     _inputController.dispose();
