@@ -49,13 +49,13 @@ class _HomeState extends State<Home> {
                           for (Map<String, dynamic> algorithms in salts[index]!["algorithms"]) ...<Widget>[
                             Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.8))),
                             const SizedBox(height: 10),
-                            for (MapEntry type in algorithms["types"]) ...<Widget>[
+                            for (MapEntry type in algorithms["types"])
                               if (salts[index]!["title"] == type.key) Flexible(child: Text(type.value, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6)))) else Text(" ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4)),)
                               else
                               ...<Widget>[ const SizedBox(height: 10),
                               Flexible(child: Text(type.value, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),],
 
-                            ],
+
                           ],
                         ],
                       ),
