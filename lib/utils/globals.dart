@@ -60,7 +60,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "3DES (Triple Data Encryption Standard)",
-        "types": <String>["SHA-224", "SHA-256", "SHA-384", "SHA-512"],
+        "types": <String>[],
         "value": "",
       },
       <String, dynamic>{
