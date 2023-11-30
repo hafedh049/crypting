@@ -114,7 +114,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "title": "Cryptographic Algorithms",
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
-        "algorithm": "Twofish",
+        "algorithm": "PBKDF2 (Password-Based Key Derivation Function 2)",
         "types": <String>[],
         "value": "",
       },
