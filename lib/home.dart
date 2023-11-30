@@ -48,6 +48,7 @@ class _HomeState extends State<Home> {
                           const SizedBox(height: 10),
                           for (Map<String, dynamic> algorithms in salts[index]!["algorithms"]) ...<Widget>[
                             Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))),
+                            const SizedBox(height: 10),
                           ],
                           Text(salts[index]![2], style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500)),
                           const SizedBox(height: 10),
