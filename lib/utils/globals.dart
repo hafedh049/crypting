@@ -92,7 +92,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     ],
   },
   2: <String, dynamic>{
-    "title": "Cryptographic Algorithms",
+    "title": "Key Derivation Functions (KDF)",
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
         "algorithm": "PBKDF2 (Password-Based Key Derivation Function 2)",
