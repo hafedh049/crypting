@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SearchBarAnimation(
-              textController: _inputController,
+              controller: _inputController,
               onSuffixTap: ,
               onSubmitted: onSubmitted,
             ),
