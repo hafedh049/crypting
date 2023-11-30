@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          Text(salts[index]!["title"], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
+                          Text(salts[index]!["title"], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: red)),
                           const SizedBox(height: 10),
                           for (Map<String, dynamic> algorithm in salts[index]!["algorithms"]) ...<Widget>[
                             Text(" ${algorithm["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.8))),
