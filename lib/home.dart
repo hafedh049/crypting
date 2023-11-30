@@ -1,5 +1,6 @@
 import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/s'
 
 class Home extends StatefulWidget {
   const Home({super.key});
