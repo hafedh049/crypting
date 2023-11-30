@@ -1,7 +1,8 @@
 import 'package:crypting/home.dart';
 import 'package:flutter/material.dart';
 
-void main() async {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const Main());
 }
 
