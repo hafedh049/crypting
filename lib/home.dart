@@ -19,7 +19,9 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted),
             const SizedBox(height: 20),
-            Expanded(child: ListView.builder(itemBuilder: itemBuilder)),
+            Expanded(
+              child: ListView.builder(itemBuilder: itemBuilder),
+            ),
           ],
         ),
       ),
