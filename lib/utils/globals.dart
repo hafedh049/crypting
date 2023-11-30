@@ -67,7 +67,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "Blowfish",
-        "types": <String, String>{},
+        "types": <String, String>{"Blowfish": ""},
       },
       <String, dynamic>{
         "algorithm": "RC4 (Rivest Cipher 4)",
