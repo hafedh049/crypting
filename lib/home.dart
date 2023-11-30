@@ -11,6 +11,11 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   final TextEditingController _inputController = TextEditingController();
   @override
+  void dispose() {
+    _inputController.dispose();
+    super.dispose();
+  }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
