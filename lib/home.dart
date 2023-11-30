@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
   final TextEditingController _publicKeyController = TextEditingController();
   @override
   void dispose() {
-    _publicKeyController.dispose()
+    _publicKeyController.dispose();
     _inputController.dispose();
     super.dispose();
   }
