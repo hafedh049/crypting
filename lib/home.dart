@@ -1,3 +1,4 @@
+import 'package:anim_search_bar/anim_search_bar.dart';
 import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class _HomeState extends State<Home> {
         child: Center(
           child: Column(
             children: <Widget>[
-              SearchBar(
+              AnimSearchBar(
                 controller: _inputController,
                 onChanged: (String text) {},
               ),
