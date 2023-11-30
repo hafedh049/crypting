@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const Color mainColor = Colors.tealAccent;
 const Color mainColor = Colors.blueAccent;
-const Color mainColor = Colors.red;
+const Color mainColor = Colors.redAccent;
 const Color gray = Color.fromARGB(255, 51, 56, 66);
 const Color white = Colors.white;
 
