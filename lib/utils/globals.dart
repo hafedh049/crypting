@@ -114,46 +114,6 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "title": "Cryptographic Algorithms",
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
-        "algorithm": "AES (Advanced Encryption Standard)",
-        "types": <String>["AES-128", "AES-192", "AES-256"],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "DES (Data Encryption Standard)",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "3DES (Triple Data Encryption Standard)",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "RSA (Rivest–Shamir–Adleman)",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "Diffie-Hellman Key Exchange",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "ECC (Elliptic Curve Cryptography)",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "Blowfish",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
-        "algorithm": "RC4 (Rivest Cipher 4)",
-        "types": <String>[],
-        "value": "",
-      },
-      <String, dynamic>{
         "algorithm": "Twofish",
         "types": <String>[],
         "value": "",
