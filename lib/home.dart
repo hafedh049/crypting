@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SearchBar(
-              textController: _inputController,
+              controller: _inputController,
               onSuffixTap: ,
               onSubmitted: onSubmitted,
             ),
