@@ -13,7 +13,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
   1: <String, dynamic>{
     "algorithm": "SHA-1 (Secure Hash Algorithm 1)",
     "types": <String>["SHA-224
-"],
+],
     "value": "",
   },
   2: <String, dynamic>{
