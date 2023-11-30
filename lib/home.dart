@@ -43,6 +43,23 @@ class _HomeState extends State<Home> {
                   setState(() {});
                 },
               ),
+              const SizedBox(height: 10),
+              SearchBarAnimation(
+                enteredTextStyle: const TextStyle(color: teal),
+                hintText: "Type ...",
+                cursorColour: teal,
+                hintTextColour: teal,
+                searchBoxColour: gray,
+                buttonColour: white.withOpacity(.3),
+                isOriginalAnimation: false,
+                textEditingController: _inputController,
+                trailingWidget: InkWell(onTap: () => setState(() => _inputController.clear()), child: const Icon(FontAwesome.x, size: 15, color: teal)),
+                secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
+                buttonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
+                onChanged: (String text) {
+                  setState(() {});
+                },
+              ),
               const SizedBox(height: 20),
               Expanded(
                 child: ListView.builder(
