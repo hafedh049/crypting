@@ -1,5 +1,6 @@
 import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
+import 'package:icons_plus/icons_plus.dart';
 import 'package:searchbar_animation/searchbar_animation.dart';
 
 class Home extends StatefulWidget {
@@ -34,7 +35,7 @@ class _HomeState extends State<Home> {
                   debugPrint('onFieldSubmitted value $value');
                 },
                 textEditingController: _inputController,
-                trailingWidget: null,
+                trailingWidget: Icon(FontAwesome.x),
                 secondaryButtonWidget: null,
                 buttonWidget: null,
               ),
