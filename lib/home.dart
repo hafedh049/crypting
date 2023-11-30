@@ -35,6 +35,9 @@ class _HomeState extends State<Home> {
                   debugPrint('onFieldSubmitted value $value');
                 },
                 textEditingController: null,
+                trailingWidget: null,
+                secondaryButtonWidget: null,
+                buttonWidget: null,
               ),
               const SizedBox(height: 20),
               Expanded(
