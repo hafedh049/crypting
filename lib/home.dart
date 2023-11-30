@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
                               if (salts[index]!["title"] == type.key)
                                 Flexible(child: Text(type.value, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                               else ...<Widget>[
-                                 Text(" ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4)))
+                                Text(" ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
                                 const SizedBox(height: 10),
                                 Flexible(child: Text(type.value, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
                               ],
