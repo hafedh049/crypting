@@ -119,7 +119,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
         "value": "",
       },
       <String, dynamic>{
-        "algorithm": "bcrypt",
+        "algorithm": "BCrypt",
         "types": <String>[],
         "value": "",
       },
