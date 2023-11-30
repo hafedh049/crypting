@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
                       margin: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: white.withOpacity(.3),
+                        color: white.withOpacity(.05),
                         boxShadow: <BoxShadow>[BoxShadow(color: gray.withOpacity(.3), blurStyle: BlurStyle.outer, offset: const Offset(2, 2))],
                       ),
                       child: Column(
