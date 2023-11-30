@@ -30,7 +30,6 @@ class _HomeState extends State<Home> {
               SearchBarAnimation(
                 isOriginalAnimation: false,
                 buttonBorderColour: Colors.black45,
-                buttonIcon: Icons.search,
                 onFieldSubmitted: (String value) {
                   debugPrint('onFieldSubmitted value $value');
                 },
