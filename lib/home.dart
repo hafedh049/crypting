@@ -16,6 +16,7 @@ class _HomeState extends State<Home> {
     _inputController.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,10 +25,16 @@ class _HomeState extends State<Home> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted,),
+            AnimSearchBar(
+              width: width,
+              textController: textController,
+              onSuffixTap: onSuffixTap,
+              onSubmitted: onSubmitted,
+            ),
             const SizedBox(height: 20),
             Expanded(
-              child: ListView.builder(itemCount: ,
+              child: ListView.builder(
+                itemCount: 10,
                 itemBuilder: (BuildContext context, int index) {},
               ),
             ),
