@@ -26,7 +26,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "value": "",
   },
   4: <String, dynamic>{
-    "algorithm": "MD5 (Message Digest Algorithm 5)",
+    "algorithm": "BLAKE2",
     "types": <String>[],
     "value": "",
   },
