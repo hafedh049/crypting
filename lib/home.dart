@@ -55,9 +55,9 @@ class _HomeState extends State<Home> {
                                 Flexible(child: Text("  ${algorithm.values.first}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                               else ...<Widget>[
                                 for (MapEntry entry in algorithm["types"]) ...<Widget>[
-                                  Text("  ${type.keys.first}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
+                                  Text("  ${entry.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
                                   const SizedBox(height: 10),
-                                  Flexible(child: Text("   ${type.value}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
+                                  Flexible(child: Text("   ${entry.value}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
                                 ],
                               ],
                             ],
