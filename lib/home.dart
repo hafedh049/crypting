@@ -18,6 +18,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted),
+            const SizedBox(height: 20),
           ],
         ),
       ),
