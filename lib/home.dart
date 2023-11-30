@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             AnimSearchBar(
               width: MediaQuery.sizeOf(context).width * .6,
-              textController: textController,
+              textController: _inputController,
               onSuffixTap: onSuffixTap,
               onSubmitted: onSubmitted,
             ),
