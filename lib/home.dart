@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
             AnimSearchBar(
               width: MediaQuery.sizeOf(context).width * .6,
               textController: _inputController,
-              onSuffixTap: onSuffixTap,
+              onSuffixTap: ,
               onSubmitted: onSubmitted,
             ),
             const SizedBox(height: 20),
