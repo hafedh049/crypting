@@ -30,7 +30,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "Whirlpool",
-        "types": <String, String>{},
+        "types": <String, String>{"Whirlpool": ""},
       },
       <String, dynamic>{
         "algorithm": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest)",
