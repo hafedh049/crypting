@@ -59,7 +59,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "Diffie-Hellman Key Exchange",
-        "types": <String, String>{},
+        "types": <String, String>{"Diffie-Hellman Key Exchange": ""},
       },
       <String, dynamic>{
         "algorithm": "ECC (Elliptic Curve Cryptography)",
