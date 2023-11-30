@@ -42,8 +42,8 @@ class _HomeState extends State<Home> {
                     return Container(
                       padding: const EdgeInsets.all(16),
                       margin: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        boxShadow: <BoxShadow>[BoxShadow(color: gray, blurStyle: BlurStyle.outer)],
+                      decoration: BoxDecoration(color: mainColor.withOpacity(.3),
+                        boxShadow: <BoxShadow>[BoxShadow(color: gray., blurStyle: BlurStyle.outer)],
                       ),
                     );
                   },
