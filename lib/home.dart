@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
                 searchBoxColour: gray,
                 buttonColour: white.withOpacity(.3),
                 isOriginalAnimation: false,
-                textEditingController: _inputController,
+                textEditingController: _publicKeyController,
                 trailingWidget: InkWell(onTap: () => setState(() => _inputController.clear()), child: const Icon(FontAwesome.x, size: 15, color: teal)),
                 secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
                 buttonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
