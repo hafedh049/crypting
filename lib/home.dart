@@ -47,13 +47,13 @@ class _HomeState extends State<Home> {
                           Text(salts[index]!["title"], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
                           const SizedBox(height: 10),
                           for (Map<String, dynamic> algorithms in salts[index]!["algorithms"]) ...<Widget>[
-                            Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))),
+                            Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.8))),
                             const SizedBox(height: 10),
                             if (salts[index]!["title"] == algorithms["types"].keys[0])
-                              Flexible(child: Text(salts[index]![2], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))))
+                              Flexible(child: Text(salts[index]![2], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                             else
                               for (MapEntry type in algorithms["types"]) ...<Widget>[
-                                Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))),
+                                Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
                               ],
                           ],
                           const SizedBox(height: 10),
