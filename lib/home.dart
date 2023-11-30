@@ -38,7 +38,9 @@ class _HomeState extends State<Home> {
               child: ListView.builder(
                 itemCount: 10,
                 itemBuilder: (BuildContext context, int index) {
-                  return;
+                  return Container(
+                    padding: EdgeInsets.all(16),
+                  );
                 },
               ),
             ),
