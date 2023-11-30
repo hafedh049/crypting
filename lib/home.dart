@@ -26,26 +26,28 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(24),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            SearchBar(
-              controller: _inputController,
-              onChanged: (String text) {},
-            ),
-            const SizedBox(height: 20),
-            Expanded(
-              child: ListView.builder(
-                itemCount: 10,
-                itemBuilder: (BuildContext context, int index) {
-                  return Container(
-                    padding: const EdgeInsets.all(16),
-                    margin: const EdgeInsets.all(16),
-                  );
-                },
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              SearchBar(
+                controller: _inputController,
+                onChanged: (String text) {},
               ),
-            ),
-          ],
+              const SizedBox(height: 20),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: 10,
+                  itemBuilder: (BuildContext context, int index) {
+                    return Container(
+                      padding: const EdgeInsets.all(16),
+                      margin: const EdgeInsets.all(16),
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
