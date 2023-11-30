@@ -24,7 +24,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
           {"SHA-224"},
           {"SHA-256"},
           {"SHA-384"},
-          {"SHA-512"}
+          {"SHA-512"},
         ],
         "value": "",
       },
