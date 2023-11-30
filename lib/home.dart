@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
                         boxShadow: <BoxShadow>[BoxShadow(color: gray.withOpacity(.3), blurStyle: BlurStyle.outer, offset: const Offset(2, 2))],
                       ),
                       child: Column(
-                        children: <Widget>[],
+                        children: <Widget>[Text(data)],
                       ),
                     );
                   },
