@@ -54,9 +54,9 @@ class _HomeState extends State<Home> {
                             else
                               for (MapEntry type in algorithms["types"]) ...<Widget>[
                                 Text(" ${algorithms["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
+                                const SizedBox(height: 10),
                               ],
                           ],
-                          const SizedBox(height: 10),
                         ],
                       ),
                     );
