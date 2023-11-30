@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
         padding: const EdgeInsets.all(24),
         child: Center(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               SearchBar(
                 controller: _inputController,
