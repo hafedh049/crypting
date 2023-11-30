@@ -50,14 +50,14 @@ class _HomeState extends State<Home> {
                           for (Map<String, dynamic> algorithm in salts[index]!["algorithms"]) ...<Widget>[
                             Text(" ${algorithm["algorithm"]}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.8))),
                             const SizedBox(height: 10),
-                            for (MapEntry<String, String> algorithm in algorithm["types"]) ...<Widget>[
-                              if (salts[index]!["title"] == algorithm.key)
-                                Flexible(child: Text("  ${algorithm.value}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
+                            for (MapEntry<String, String> type in algorithm["types"]) ...<Widget>[
+                              if (salts[index]!["title"] == type.key)
+                                Flexible(child: Text("  ${type.value}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
                               else ...<Widget>[
                                 ...<Widget>[
-                                  Text("  ${entry.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
+                                  Text("  ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
                                   const SizedBox(height: 10),
-                                  Flexible(child: Text("   ${entry.value}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
+                                  Flexible(child: Text("   ${type.value}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
                                 ],
                               ],
                             ],
