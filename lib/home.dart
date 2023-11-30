@@ -44,7 +44,7 @@ class _HomeState extends State<Home> {
                       ),
                       child: Column(
                         children: <Widget>[
-                          Text(salts[index]),
+                          Text(salts[index][0]),
                         ],
                       ),
                     );
