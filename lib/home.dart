@@ -54,10 +54,10 @@ class _HomeState extends State<Home> {
                             const SizedBox(height: 10),
                             for (MapEntry<String, String> type in algorithm["types"].entries)
                               if (salts[index]!["title"] == type.key)
-                                Flexible(child: Text("  ${type.value}", style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))))
+                                Flexible(child: Text("  ${type.value}", style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: blue)))
                               else ...<Widget>[
                                 ...<Widget>[
-                                  Text("  ${type.key}", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))),
+                                  Text("  ${type.key}", style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: blue)),
                                   const SizedBox(height: 10),
                                   Flexible(child: Text("   ${type.value}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500))),
                                 ],
