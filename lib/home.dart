@@ -1,6 +1,6 @@
 import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/s'
+import 'package:flutter/search_bar_animation/'
 
 class Home extends StatefulWidget {
   const Home({super.key});
