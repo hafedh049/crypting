@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
                   debugPrint('onFieldSubmitted value $value');
                 },
                 textEditingController: _inputController,
-                trailingWidget: Icon(FontAwesome.x),
+                trailingWidget: const Icon(FontAwesome.x, size: 15, color: teal),
                 secondaryButtonWidget: null,
                 buttonWidget: null,
               ),
