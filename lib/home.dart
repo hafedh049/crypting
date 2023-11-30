@@ -46,6 +46,7 @@ class _HomeState extends State<Home> {
                         children: <Widget>[
                           Text(salts[index]!["title"], style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: mainColor)),
                           const SizedBox(height: 10),
+                          for(Map<String,dynamic>)
                           Text(salts[index]![1], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.6))),
                           const SizedBox(height: 10),
                           Text(salts[index]![2], style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500)),
