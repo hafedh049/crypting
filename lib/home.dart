@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
                             if (salts[index]!["title"] == algorithms["types"].keys[0])
                               Flexible(child: Text(salts[index]![2], style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: mainColor.withOpacity(.4))))
                             else
-                              for (MapEntry type in algorithms["types"]) Container()
+                              for (MapEntry type in algorithms["types"]) ...<Widget>[],
                           ],
                           const SizedBox(height: 10),
                         ],
