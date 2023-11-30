@@ -5,5 +5,5 @@ const Color gray = Colors.grey;
 const Color white = Colors.white;
 
 final Map<int, List<String>> salts = <int, List<String>>{
-  0: <String>["", "", ""],
+  0: <String>["MD5", "", ""],
 };
