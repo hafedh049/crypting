@@ -31,7 +31,6 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SearchBar(
-              width: MediaQuery.sizeOf(context).width * .6,
               textController: _inputController,
               onSuffixTap: ,
               onSubmitted: onSubmitted,
