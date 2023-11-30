@@ -46,9 +46,9 @@ class _HomeState extends State<Home> {
                         children: <Widget>[
                           Text(salts[index]![0], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
                           const SizedBox(height: 10),
-                          Text(salts[index]![0], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
+                          Text(salts[index]![1], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
                           const SizedBox(height: 10),
-                          Text(salts[index]![0], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
+                          Text(salts[index]![2], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: mainColor)),
                           const SizedBox(height: 10),
                         ],
                       ),
