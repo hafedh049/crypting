@@ -29,6 +29,7 @@ class _HomeState extends State<Home> {
             children: <Widget>[
               SearchBarAnimation(
                 enteredTextStyle: const TextStyle(color: teal),
+                hintText: "Type ...",
                 searchBoxColour: gray,
                 buttonColour: white.withOpacity(.3),
                 isOriginalAnimation: false,
