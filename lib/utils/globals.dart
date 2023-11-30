@@ -63,7 +63,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "ECC (Elliptic Curve Cryptography)",
-        "types": <String, String>{},
+        "types": <String, String>{"ECC (Elliptic Curve Cryptography)": ""},
       },
       <String, dynamic>{
         "algorithm": "Blowfish",
