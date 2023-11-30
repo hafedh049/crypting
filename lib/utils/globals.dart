@@ -7,7 +7,7 @@ const Color white = Colors.white;
 final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
   0: <String, dynamic>{
     "title": "",
-    "algorithms": <String, dynamic>{
+    "algorithms": <int, dynamic>{
       "algorithm": "MD5 (Message Digest Algorithm 5)",
       "types": <String>[],
       "value": "",
