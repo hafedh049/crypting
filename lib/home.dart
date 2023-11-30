@@ -1,3 +1,4 @@
+import 'package:crypting/utils/globals.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -42,7 +43,7 @@ class _HomeState extends State<Home> {
                       padding: const EdgeInsets.all(16),
                       margin: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        boxShadow: <BoxShadow>[BoxShadow()],
+                        boxShadow: <BoxShadow>[BoxShadow(color: gray, blurStyle: BlurStyle.outer)],
                       ),
                     );
                   },
