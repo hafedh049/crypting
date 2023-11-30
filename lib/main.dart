@@ -9,6 +9,5 @@ class Main extends StatelessWidget {
   const Main({super.key});
 
   @override
-  Widget build(BuildContext context) =>
-    return MaterialApp(debugShowCheckedModeBanner: false, theme: ThemeData.dark(), home: const Home());
+  Widget build(BuildContext context) => MaterialApp(debugShowCheckedModeBanner: false, theme: ThemeData.dark(), home: const Home());
 }
