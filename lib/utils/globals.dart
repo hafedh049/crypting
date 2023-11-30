@@ -80,7 +80,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
       <String, dynamic>{
         "algorithm": "Blowfish",
-        "types": <String>["RIPEMD-128", "RIPEMD-160", "RIPEMD-256", "RIPEMD-320"],
+        "types": <String>[],
         "value": "",
       },
     ],
