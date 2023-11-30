@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
               const SizedBox(height: 10),
               SearchBarAnimation(
                 enteredTextStyle: const TextStyle(color: teal),
-                hintText: "Type ...",
+                hintText: "Public Key",
                 cursorColour: teal,
                 hintTextColour: teal,
                 searchBoxColour: gray,
