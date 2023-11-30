@@ -20,4 +20,9 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
     "types": <String>["SHA-224", "SHA-256", "SHA-384", "SHA-512"],
     "value": "",
   },
+  3: <String, dynamic>{
+    "algorithm": "SHA-2 (Secure Hash Algorithm 2)",
+    "types": <String>["SHA-224", "SHA-256", "SHA-384", "SHA-512"],
+    "value": "",
+  },
 };
