@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
             AnimSearchBar(width: width, textController: textController, onSuffixTap: onSuffixTap, onSubmitted: onSubmitted),
             const SizedBox(height: 20),
             Expanded(
-              child: ListView.builder(itemBuilder: () {}),
+              child: ListView.builder(itemBuilder: (BuildContext context, int index) {}),
             ),
           ],
         ),
