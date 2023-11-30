@@ -83,6 +83,31 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
         "types": <String>[],
         "value": "",
       },
+      <String, dynamic>{
+        "algorithm": "Blowfish",
+        "types": <String>[],
+        "value": "",
+      },
+      <String, dynamic>{
+        "algorithm": "Blowfish",
+        "types": <String>[],
+        "value": "",
+      },
+      <String, dynamic>{
+        "algorithm": "Blowfish",
+        "types": <String>[],
+        "value": "",
+      },
+      <String, dynamic>{
+        "algorithm": "Blowfish",
+        "types": <String>[],
+        "value": "",
+      },
+      <String, dynamic>{
+        "algorithm": "Blowfish",
+        "types": <String>[],
+        "value": "",
+      },
     ],
   },
 };
