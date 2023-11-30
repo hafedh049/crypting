@@ -39,7 +39,9 @@ class _HomeState extends State<Home> {
                 trailingWidget: InkWell(onTap: () => setState(() => _inputController.clear()), child: const Icon(FontAwesome.x, size: 15, color: teal)),
                 secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
                 buttonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
-                onChanged: (String text) {},
+                onChanged: (String text) {
+                  setState(() {});
+                },
               ),
               const SizedBox(height: 20),
               Expanded(
