@@ -69,7 +69,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
         "value": "",
       },
       <String, dynamic>{
-        "algorithm": "BLAKE2",
+        "algorithm": "Diffie-Hellman Key Exchange",
         "types": <String>[],
         "value": "",
       },
