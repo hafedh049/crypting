@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             SearchBar(
               controller: _inputController,
-              onSuffixTap: ,
+              onChanged: (String text) {},
               onSubmitted: onSubmitted,
             ),
             const SizedBox(height: 20),
