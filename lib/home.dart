@@ -32,9 +32,6 @@ class _HomeState extends State<Home> {
                 buttonColour: white.withOpacity(.3),
                 isOriginalAnimation: false,
                 buttonBorderColour: Colors.black45,
-                onFieldSubmitted: (String value) {
-                  debugPrint('onFieldSubmitted value $value');
-                },
                 textEditingController: _inputController,
                 trailingWidget: InkWell(onTap: () => setState(() => _inputController.clear()), child: const Icon(FontAwesome.x, size: 15, color: teal)),
                 secondaryButtonWidget: const Icon(Bootstrap.search, size: 15, color: teal),
