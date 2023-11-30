@@ -45,7 +45,7 @@ final Map<int, Map<String, dynamic>> salts = <int, Map<String, dynamic>>{
       },
     ],
   },
-  0: <String, dynamic>{
+  1: <String, dynamic>{
     "title": "Hashing Algorithms",
     "algorithms": <Map<String, dynamic>>[
       <String, dynamic>{
